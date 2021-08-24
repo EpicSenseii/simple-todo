@@ -1,0 +1,75 @@
+*{
+    /* margin: 0 auto; */
+}
+
+body{
+    background-color: #F4DFD0;
+}
+
+.wrapper{
+    background-color: #CDBBA7;
+    margin: 120px auto;
+    max-width: 700px;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.wrapper .title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.addTodo{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.userInput{
+    border-style: none;
+    font-size: 16px;
+    outline: none;
+    background-color: #f0e4d6;
+}
+
+.addBtn{
+    position: absolute;
+    background-color: rgb(53, 44, 44);
+    color: white;
+    border-radius: 0 4px 4px 0;
+    font-size: 16px;
+    border: none;
+}
+
+.todoList{
+    /* margin-top: 10px; */
+    position: relative;
+    margin-left: 9px;
+}
+
+.btn{
+    /* font-size: 10px; */
+    position: absolute;
+    left: 0;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.userCheck{
+
+}
+
+.todoTask{
+    font-size: 20px;
+}
+
+.todoDate{
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(58, 58, 58);
+    margin-left: 10px;
+}
